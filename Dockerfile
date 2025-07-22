@@ -10,6 +10,6 @@ EXPOSE 8080
 
 ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-d1vljevdiees73bplei0-a.oregon-postgres.render.com/db_fap_sueg 
 ENV SPRING_DATASOURCE_USERNAME=root
-ENV SPRING_DATASOURCE_PASSWORD=wfPEPfW4bbxp7MmfoCJPSehdH2EGrFFa
+ENV SPRING_DATASOURCE_PASSWORD=iHJz3BAHevoAsWn7jTEE2ZSnY8zak0oh
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
