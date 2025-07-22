@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y curl && \
 
 EXPOSE 8080
 
-ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-d1asqh15pdvs73d8tlc0-a.oregon-postgres.render.com:5432/db_fap_jkqz
+ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-d1vljevdiees73bplei0-a.oregon-postgres.render.com/db_fap_sueg 
 ENV SPRING_DATASOURCE_USERNAME=root
 ENV SPRING_DATASOURCE_PASSWORD=wfPEPfW4bbxp7MmfoCJPSehdH2EGrFFa
 
